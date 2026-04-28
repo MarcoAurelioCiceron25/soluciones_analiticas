@@ -1,0 +1,24 @@
+# Proyecto: Método de Euler vs Solución Exacta
+
+Para este proyecto resolvimos una ecuación diferencial separable de primer orden:
+
+dy/dt = y, con y(0) = 1
+
+## Pasos:
+1. Resolvimos analíticamente usando separación de variables:
+   - Solución exacta: y(t) = e^t
+2. Aplicamos el método de Euler en el intervalo [0,1] con paso h = 0.2.
+3. Comparamos los resultados aproximados con la solución exacta mediante una gráfica.
+
+## Archivos:
+- `euler.py`: código en Python con la implementación.
+- `README.md`: explicación del problema y pasos seguidos.
+
+## Requisitos:
+- Python 3.x
+- Librerías: numpy, matplotlib
+
+## Para jecutar:
+
+python3 euler.py
+
